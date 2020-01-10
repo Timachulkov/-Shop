@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:first_shop_page"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="472" Width="804">
     <Grid>
         <TabControl>
-            <TabItem Header="TabItem" Margin="-2,-2,2,0">
+            <TabItem Header="Открыть меню " Margin="-2,-2,2,0">
                 <Grid Background="#FFE5E5E5" HorizontalAlignment="Left" Width="182">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="125*"/>
@@ -16,9 +16,19 @@
                     </Grid.ColumnDefinitions>
                 </Grid>
             </TabItem>
-            <TabItem Header="TabItem">
+            <TabItem Header="Закрыть меню">
                 <Grid Background="#FFE5E5E5" Margin="0,0,0,0" HorizontalAlignment="Left" />
             </TabItem>
         </TabControl>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="699,0,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="597,0,0,0" VerticalAlignment="Top" Width="75"/>
+        <Grid HorizontalAlignment="Left" Height="172" Margin="210,33,0,0" VerticalAlignment="Top" Width="395">
+            <RadioButton HorizontalAlignment="Left" Margin="340,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.067,0.786"/>
+            <RadioButton HorizontalAlignment="Left" Margin="325,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.333,0.571"/>
+            <RadioButton HorizontalAlignment="Left" Margin="355,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.067,0.786"/>
+            <RadioButton HorizontalAlignment="Left" Margin="370,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.067,0.786"/>
+            <Image HorizontalAlignment="Left" Height="132" Margin="10,10,0,0" VerticalAlignment="Top" Width="375"/>
+            <RadioButton HorizontalAlignment="Left" Margin="310,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.333,0.571"/>
+        </Grid>
     </Grid>
 </Window>
