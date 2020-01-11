@@ -22,8 +22,8 @@
             <RadioButton HorizontalAlignment="Left" Margin="310,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.333,0.571" />
         </Grid>
         <DockPanel Height="20" LastChildFill="False" Margin="619,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="177">
-            <Button Content="Регистрация" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" DockPanel.Dock="Right"/>
-            <Button Content="Вход" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.28,-4" DockPanel.Dock="Left"/>
+            <Button Content="Регистрация" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" DockPanel.Dock="Right" Click="Button_Click_1"/>
+            <Button Content="Вход" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.28,-4" DockPanel.Dock="Left" Click="Button_Click"/>
         </DockPanel>
         <WrapPanel Margin="203,222,10,10"/>
     </Grid>
