@@ -7,28 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="472" Width="804">
     <Grid>
-        <TabControl>
-            <TabItem Header="Открыть меню " Margin="-2,-2,2,0">
-                <Grid Background="#FFE5E5E5" HorizontalAlignment="Left" Width="182">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="125*"/>
-                        <ColumnDefinition Width="167*"/>
-                    </Grid.ColumnDefinitions>
-                </Grid>
+        <TabControl SelectionChanged="TabControl_SelectionChanged">
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5" HorizontalAlignment="Left" Width="189"/>
             </TabItem>
-            <TabItem Header="Закрыть меню">
-                <Grid Background="#FFE5E5E5" Margin="0,0,0,0" HorizontalAlignment="Left" />
-            </TabItem>
+            <TabItem Header="TabItem"/>
         </TabControl>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="699,0,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="597,0,0,0" VerticalAlignment="Top" Width="75"/>
-        <Grid HorizontalAlignment="Left" Height="172" Margin="210,33,0,0" VerticalAlignment="Top" Width="395">
+        <Grid Margin="203,50,198,219">
             <RadioButton HorizontalAlignment="Left" Margin="340,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.067,0.786"/>
             <RadioButton HorizontalAlignment="Left" Margin="325,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.333,0.571"/>
             <RadioButton HorizontalAlignment="Left" Margin="355,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.067,0.786"/>
             <RadioButton HorizontalAlignment="Left" Margin="370,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.067,0.786"/>
             <Image HorizontalAlignment="Left" Height="132" Margin="10,10,0,0" VerticalAlignment="Top" Width="375"/>
-            <RadioButton HorizontalAlignment="Left" Margin="310,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.333,0.571"/>
+            <RadioButton HorizontalAlignment="Left" Margin="310,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.333,0.571" />
         </Grid>
+        <DockPanel Height="20" LastChildFill="False" Margin="619,0,0,0" VerticalAlignment="Top">
+            <Button Content="Button" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75" DockPanel.Dock="Right"/>
+            <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.28,-4" DockPanel.Dock="Left"/>
+        </DockPanel>
     </Grid>
 </Window>
