@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="472" Width="804">
     <Grid>
-        <TabControl SelectionChanged="TabControl_SelectionChanged">
-            <TabItem Header="TabItem">
+        <TabControl >
+            <TabItem Header="Открыть ">
                 <Grid Background="#FFE5E5E5" HorizontalAlignment="Left" Width="189"/>
             </TabItem>
-            <TabItem Header="TabItem"/>
+            <TabItem Header="Закрыть"/>
         </TabControl>
         <Grid Margin="203,50,198,219">
             <RadioButton HorizontalAlignment="Left" Margin="340,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.067,0.786"/>
@@ -21,9 +21,10 @@
             <Image HorizontalAlignment="Left" Height="132" Margin="10,10,0,0" VerticalAlignment="Top" Width="375"/>
             <RadioButton HorizontalAlignment="Left" Margin="310,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.333,0.571" />
         </Grid>
-        <DockPanel Height="20" LastChildFill="False" Margin="619,0,0,0" VerticalAlignment="Top">
-            <Button Content="Button" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75" DockPanel.Dock="Right"/>
-            <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.28,-4" DockPanel.Dock="Left"/>
+        <DockPanel Height="20" LastChildFill="False" Margin="619,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="177">
+            <Button Content="Регистрация" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" DockPanel.Dock="Right"/>
+            <Button Content="Вход" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.28,-4" DockPanel.Dock="Left"/>
         </DockPanel>
+        <WrapPanel Margin="203,222,10,10"/>
     </Grid>
 </Window>
